@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARYA EYE CARE</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/images/favicon_io/favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/media.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm py-3 navbar-sticky">
+            <div class="container d-flex justify-content-between">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./Assets/images/logo.svg" alt="Aarya Eye Care Logo">
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link semi-dark" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link semi-dark" href="#">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link semi-dark" href="#">PAGES</a></li>
+                        <li class="nav-item"><a class="nav-link semi-dark" href="#">CONTACT</a></li>
+                    </ul>
+                    <!-- Mobile buttons (inside menu) -->
+                    <div class="d-lg-none mt-3 text-center">
+                        <a href="tel:+91XXXXXXXXXX" class="fw-semibold text-decoration-none d-block mb-2">
+                            <img src="./Assets/images/call-icon.svg" class="px-2"> Emergency Call
+                        </a>
+                        <a href="#" class="brown-btn px-4">Appointment</a>
+                    </div>
+                </div>
+
+                <!-- Desktop buttons -->
+                <div class="d-none d-lg-flex align-items-center gap-3">
+                    <a href="tel:+91XXXXXXXXXX" class="fw-semibold text-decoration-none active">
+                        <img src="./Assets/images/call-icon.svg" class="px-2"> Emergency Call
+                    </a>
+                    <a href="#" class="brown-btn px-4">Appointment</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Content -->
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h5 class="text-uppercase mb-3">Welcome to Aarya Eye Care</h5>
+                    <h1 class="fw-bold display-5 mb-4">We Are Here to Hear and Heal Your Eye Problems</h1>
+
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start mb-4">
+                        <a href="#" class="brown-btn">Get Started</a>
+                        <a href="#" class=" white-trans-btn text-dark">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6 d-flex align-items-center justify-content-center hero-img ">
+                    <img src="./Assets/images/hero-banner.svg" alt="Doctor" class="img-fluid">
+
+                    <!-- Experience counters -->
+                    <div class="ex-sp ms-4">
+                        <div class="experience">
+                            <h3 class="fw-bold dark">25+</h3>
+                            <p class="text-muted">Years of Experience</p>
+                        </div>
+                        <div class="doctor">
+                            <h3 class="fw-bold dark">140+</h3>
+                            <p class="text-muted ">Specialist Doctors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section  -->
+    <section class="service-section ">
+        <div class="container">
+            <div class="row text-center">
+                <!-- Box 1 -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="icon-circle">
+                            <img src="./Assets/images/doctor-Icon.svg" class="">
+                        </div>
+                        <div class="service-text">
+                            <h5>Expert Doctors</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="icon-circle">
+                            <img src="./Assets/images/emergency-icon.svg">
+                        </div>
+                        <div class="service-text">
+                            <h5>Emergency Care</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="icon-circle">
+                            <img src="./Assets/images/call.svg">
+                        </div>
+                        <div class="service-text">
+                            <h5>24/7 Full Support</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- help line section  -->
+
+    <section class="py-5 helpline">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Images -->
+                <div class="col-md-6 d-flex gap-3">
+                    <div class="image-card help1">
+                        <img src="./Assets/images/helpline1.svg" class="img-fluid rounded" alt="Eye Drop">
+                    </div>
+                    <div class="image-card help2">
+                        <img src="./Assets/images/helpline2.svg" class="img-fluid rounded" alt="Eye Test">
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="text-uppercase text-brown fw-bold mb-2">Help Line</div>
+                    <h2 class="fw-bold">24/7 Helpline Services</h2>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis. Lusce maximus augue eleifend dui bibendum pellentesque.
+                    </p>
+
+                    <div class="row">
+                        <div class="col-sm-6 mb-3">
+                            <h6 class="fw-bold">Our Vision</h6>
+                            <p class="text-muted mb-0">
+                                We never get behind of the latest medical trends. Lorem ipsum dolor sit, consectetur.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                            <h6 class="fw-bold">Our Vision</h6>
+                            <p class="text-muted mb-0">
+                                We never get behind of the latest medical trends. Lorem ipsum dolor sit, consectetur.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="brown-btn mt-3 rounded-pill px-4">Get Started</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- facility section  -->
+
+    <section class="py-5 bg-white facility">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="mb-5">
+                <p class="text-uppercase text-brown fw-bold small">Help Line</p>
+                <h2 class="fw-bold" style="max-width: 465px;">Amazing Medical Facilities Just for You</h2>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4 ">
+                    <div class="card h-100 border-0 shadow-sm pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-one.svg" alt="Pharmacy Icon" class="mb-3" width="40">
+                            <h5 class="card-title text-brown">Pharmacy Service</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4 ">
+                    <div class="card h-100 border-0 shadow-sm bg-light-pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-two.svg" alt="Doctor Icon" class="mb-3" width="40">
+                            <h5 class="card-title text-brown">Medical Specialist</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-4 ">
+                    <div class="card h-100 border-0 shadow-sm bg-light-pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-three.svg" alt="Checkup Icon" class="mb-3" width="40">
+                            <h5 class="card-title text-brown">Medical Checkup</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm bg-light-pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-four.svg" alt="Consultation Icon" class="mb-3"
+                                width="40">
+                            <h5 class="card-title text-brown">Health Consultation</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm bg-light-pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-five.svg" alt="Ambulance Icon" class="mb-3" width="40">
+                            <h5 class="card-title text-brown">Ambulance Service</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm bg-light-pink">
+                        <div class="card-body">
+                            <img src="./Assets/images/facility-six.svg" alt="Insurance Icon" class="mb-3" width="40">
+                            <h5 class="card-title text-brown">Health Assurance</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="text-brown fw-semibold small">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Working Hour  -->
+
+    <section class="working-hours-section py-5"
+        style="background-image: url('./Assets/images/working-hour-banner.svg'); background-size: cover; background-position: center; width:100%;">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="bg-brown text-white rounded-4 p-4 shadow">
+                        <p class="text-uppercase small fw-semibold mb-2" style="letter-spacing: 1px;">Working Hours</p>
+                        <h2 class="fw-semibold mb-3">Healthcare at Its Finest</h2>
+                        <p class="mb-4 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                            tellus, luctus nec ullamcorper mattis.</p>
+
+                        <!-- Working Hours List -->
+                        <div class="mb-4">
+                            <div
+                                class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                                <div>Mon - Wed</div>
+                                <div>7AM - 11PM</div>
+                                <a href="" class="book-btn text-brown px-3">Book Now</a>
+
+                            </div>
+                            <div
+                                class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                                <div>Thu - Fri</div>
+                                <div>8AM - 10PM</div>
+                                <a href="" class="book-btn text-brown px-3">Book Now</a>
+                            </div>
+                            <div
+                                class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                                <div>Saturday</div>
+                                <div>9AM - 9PM</div>
+                                <a href="" class="book-btn text-brown px-3">Book Now</a>
+                            </div>
+                            <div
+                                class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                                <div>Sunday</div>
+                                <div>10AM - 6PM</div>
+                                <a href="" class="book-btn text-brown px-3">Book Now</a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center py-2">
+                                <div>Emergency</div>
+                                <div>24/7</div>
+                                <a href="" class="book-btn text-brown px-3">Book Now</a>
+                            </div>
+                        </div>
+
+                        <!-- CTA -->
+                        <p class="mb-2 small text-white-50">Time’s not flexible?</p>
+                        <a href="" class="btn btn-outline-light btn-sm rounded-pill px-4">Make an Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 24/7 service  -->
+
+    <section class="twenty-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <p class="text-uppercase text-brown fw-semibold small mb-2">Help Line</p>
+                    <h2 class="fw-bold mb-3">24/7 Helpline Services</h2>
+                    <p class="text-muted mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis.
+                        Fusce maximus augue eleifend dui bibendum pellentesque.
+                    </p>
+
+                    <!-- Contact Info -->
+                    <div class="row g-4">
+                        <div class="col-6 d-flex align-items-start">
+                            <div class="icon-box me-3">
+                                <img src="./Assets/images/24-one.svg" class="text-white">
+                            </div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Our Number</h6>
+                                <p class="mb-0 text-muted">+1 (234) 567 890 00</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 d-flex align-items-start">
+                            <div class="icon-box me-3">
+                                <img src="./Assets/images/24-two.svg" class=" text-white">
+                            </div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Appointment</h6>
+                                <p class="mb-0 text-muted">medicic.info@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6">
+                    <img src="./Assets/images/24-service.svg" alt="Helpline Service" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- apppoinment section  -->
+
+    <section class="appointment-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Image -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="./Assets/images/appoinment.svg" alt="Eye Scan" class="img-fluid rounded-4  ">
+                </div>
+
+                <!-- Right Form -->
+                <div class="col-lg-6">
+                    <p class="text-uppercase text-brown small fw-semibold mb-2">Appointment</p>
+                    <h2 class="fw-bold mb-3">Book Your Appointment</h2>
+                    <p class="text-muted mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis.
+                    </p>
+
+                    <form>
+                        <div class="row g-3">
+                            <!-- Name -->
+                            <div class="col-md-12">
+                                <label for="name"> Your Name <span>*</span></label>
+                                <input id="name" type="text" class="form-control" placeholder="Your Name *">
+                            </div>
+
+                            <!-- Phone and Email -->
+                            <div class="col-md-6">
+                                <label for="name">Phone <span>*</span></label>
+                                <input type="tel" class="form-control" placeholder="+1 (234) 567 890">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Email <span>*</span></label>
+                                <input type="email" class="form-control" placeholder="example@mail.com">
+                            </div>
+
+                            <!-- Date and Time -->
+                            <div class="col-md-6">
+                                <label for="name">Date <span>*</span></label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Time <span>*</span></label>
+                                <input type="time" class="form-control">
+                            </div>
+
+                            <!-- Message -->
+                            <div class="col-md-12">
+                                <label for="name">Massage <span>*</span></label>
+                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="col-md-12">
+                                <a href="" class=" brown-btn">Make Appointment</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- OUR DOCTOR SECTION  -->
+
+    <section class="doctor-section py-5 text-center">
+        <div class="container">
+            <h6 class="doctor-section-title mb-2">Our Doctors</h6>
+            <h2 class="doctor-section-subtitle mb-5">Meet Our Amazing Doctors</h2>
+
+            <div class="row  g-4 justify-content-center">
+
+                <!-- Doctor 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="doctor-card">
+                        <img src="./Assets/images/dr-1.svg" class="img-fluid" alt="Dr. Minudath K B">
+                        <h6 class="doctor-name mt-3">Dr. Minudath K B</h6>
+                        <p class="doctor-qual">MD OPHTHALMOLOGY (AIIMS)</p>
+                    </div>
+                </div>
+
+                <!-- Doctor 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="doctor-card">
+                        <img src="./Assets/images/dr-2.svg" class="img-fluid" alt="Dr. Maithreyi S K">
+                        <h6 class="doctor-name mt-3">Dr. Maithreyi S K</h6>
+                        <p class="doctor-qual">DO, DOMS, DNB, FVRS<br>(ARAVIND HOSPITAL)</p>
+                    </div>
+                </div>
+
+                <!-- Doctor 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="doctor-card">
+                        <img src="./Assets/images/dr-3.svg" class="img-fluid" alt="Dr. Miriam Joseph">
+                        <h6 class="doctor-name mt-3">Dr. Miriam Joseph</h6>
+                        <p class="doctor-qual">MS, FICO</p>
+                    </div>
+                </div>
+
+                <!-- Doctor 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="doctor-card">
+                        <img src="./Assets/images/dr-4.svg" class="img-fluid" alt="Lara Houston">
+                        <h6 class="doctor-name mt-3">Lara Houston</h6>
+                        <p class="doctor-qual">MBBS, DNB</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--INFO SECTION-->
+
+    <section class="info-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left: Text Content -->
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-uppercase mt-2 mb-2" style="letter-spacing: 2px;">Get Started</p>
+                    <h2 class="mb-5">The Most Interesting Hospital in the World</h2>
+                    <p class="subtext">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-md-start">
+                        <a href="#" class="white-btn">Get Started</a>
+                        <a href="#" class="white-transparent">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Right: Image -->
+                <div class="col-md-6 text-center  mt-md-0">
+                    <img src="./Assets/images/main-dr.svg" alt="Doctor" class="doctor-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIALS SECTION  -->
+
+    <section class="py-5 text-center testimonials">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="mb-5">
+                <p class="text-uppercase text-brown mb-1" style="letter-spacing: 2px;">Testimonials</p>
+                <h2 class="fw-semibold">Reviews From Our Patients</h2>
+            </div>
+
+            <!-- Testimonial Card -->
+            <div class="testimonial-wrapper mx-auto shadow-sm">
+                <div class="row align-items-center g-4">
+                    <!-- Left: Text -->
+                    <div class="col-md-6 text-md-start">
+                        <p class="testimonial-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius turpis porttitor,
+                            tincidunt leo vel, euismod neque. Maecenas facilisis lacus ut nunc pretium luctus. Mauris
+                            malesuada eros ex, vitae suscipit metus pellentesque non."
+                        </p>
+                        <div class="testimonial-author mt-4">
+                            <strong>Ryan Houstons</strong>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Image -->
+                    <div class="col-md-6 text-center">
+                        <img src="./Assets/images/testimonials.svg" alt="Patient" class="testimonial-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION  -->
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- Left: Image -->
+                <div class="col-md-6 text-center">
+                    <img src="./Assets/images/faq.svg" alt="FAQ Image" class="faq-image" />
+                </div>
+
+                <!-- Right: FAQ Content -->
+                <div class="col-md-6">
+                    <p class="faq-subheading text-brown mb-1">FAQs</p>
+                    <h2 class="faq-heading mb-3">Frequently Asked Questions</h2>
+                    <p class="text-muted mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis.
+                    </p>
+
+                    <!-- Accordion -->
+                    <div class="accordion" id="faqAccordion">
+
+                        <!-- Question 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed position-relative" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    How do I make an appointment at Meddic?
+                                    <div class="accordion-icon-wrap">
+                                        <i class="bi bi-plus custom-toggle-icon"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can book an appointment through our website or call our helpline for assistance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed position-relative" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Do you have a pediatrician?
+                                    <div class="accordion-icon-wrap">
+                                        <i class="bi bi-plus custom-toggle-icon"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we have experienced pediatricians on staff.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed position-relative" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Does your place provide health insurance?
+                                    <div class="accordion-icon-wrap">
+                                        <i class="bi bi-plus custom-toggle-icon"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we accept various health insurance providers.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed position-relative" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    What payment methods do you provide?
+                                    <div class="accordion-icon-wrap">
+                                        <i class="bi bi-plus custom-toggle-icon"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept cards, UPI, net banking, and cash.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTICEL SECTION  -->
+    <section class="py-5 article mt-4">
+        <div class="container">
+            <!-- Header row -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <p class="text-uppercase text-brown small mb-1">Blog News</p>
+                    <h2 class="fw-bold">Articles From Meddic</h2>
+                </div>
+                <a href="#" class="brown-btn">More Article</a>
+            </div>
+
+            <!-- Articles row -->
+            <div class="row g-4">
+                <!-- Article 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="./Assets/images/artical1.svg" class="card-img-top" alt="Creatine article">
+                        <div class="card-body">
+                            <p class="text-uppercase text-brown small mb-2">September 28, 2023</p>
+                            <h5 class="card-title">Can creatine supplements help people</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="./Assets/images/artical2.svg" class="card-img-top" alt="Plant-based diet article">
+                        <div class="card-body">
+                            <p class="text-uppercase text-brown small mb-2">September 28, 2023</p>
+                            <h5 class="card-title">Not all plant-based diets are good diet</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="./Assets/images/artical3.svg" class="card-img-top" alt="Therapy article">
+                        <div class="card-body">
+                            <p class="text-uppercase text-brown small mb-2">September 28, 2023</p>
+                            <h5 class="card-title">How therapy could become a treatment</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+
+    <!-- Footer -->
+    <footer class="text-white pt-5 pb-4 footer" style="background-color: #8b3e2c;">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Logo & Description -->
+                <div class="col-md-3">
+                    <img src="./Assets/images/footer-logo.svg" alt="footer logo">
+                    <p class="small mt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="d-flex mt-4 gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-2">Address</h6>
+                    <p class="mb-0 small">034 Erling Knolls, Lake Kenny</p>
+                    <p class="small">North Dakota 8902</p>
+
+                    <h6 class="fw-bold mt-3 mb-2">Contact</h6>
+                    <p class="mb-0 small">+1 (234) 567 890</p>
+                    <p class="small">example@mail.com</p>
+                </div>
+
+                <!-- Explore Links -->
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Explore</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class=" text-decoration-none">Home</a></li>
+                        <li><a href="#" class=" text-decoration-none">About</a></li>
+                        <li><a href="#" class=" text-decoration-none">Services</a></li>
+                        <li><a href="#" class=" text-decoration-none">Team</a></li>
+                        <li><a href="#" class=" text-decoration-none">Blogs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Links -->
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Resources</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none">Documentation</a></li>
+                        <li><a href="#" class=" text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class=" text-decoration-none">Press Files</a></li>
+                        <li><a href="#" class=" text-decoration-none">FAQs</a></li>
+                        <li><a href="#" class=" text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div class="row mt-5">
+                <div class="col-md-6 mx-auto text-center">
+                    <h6 class="mb-3 fw-bold">Subscribe Our Newsletter</h6>
+                    <form class="d-flex justify-content-center">
+                        <input type="email" class="form-control w-50 me-2 rounded-pill" placeholder="Your email">
+                        <a href="" class="subscribe-btn rounded-pill px-4">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+            <div class="section-line"></div>
+
+            <!-- Bottom -->
+            <div
+                class="d-flex justify-content-between align-items-center mt-5 pt-3   small flex-column flex-md-row text-white-50">
+                <p class="mb-2 mb-md-0">Copyright © 2024. Aarya Eye Care</p>
+                <div>
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none">Terms & Services</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./Assets/js/script.js"></script>
+
+</body>
+
+</html>
