@@ -133,9 +133,7 @@
 }
 
 @media (max-width: 576px) {
-    .row {
-        flex-direction: column !important;
-    }
+    
 
     .col-lg-6,
     .col-md-4,
@@ -224,7 +222,7 @@
 
     .appointment-section {
         position: absolute;
-        top: 5600px;
+        top: 5700px;
     }
 
     .appointment-section .container .row .col-lg-6 h2 {
