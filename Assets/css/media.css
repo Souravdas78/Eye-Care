@@ -1,318 +1,269 @@
-/* hero section  */
-@media (max-width:1200px) {
-    .hero .ex-sp {
-
-
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 400px;
-        left: 60%;
-        width: 100%;
-        max-width: 200px;
-
-
-    }
-}
-
-@media (max-width:993px) {
-    .hero .row {
-        margin-top: 100px;
-    }
-
-    .hero h1 {
-        font-size: 40px;
-    }
-
-    .hero .ex-sp {
-
-
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 400px;
-        left: 70%;
-        width: 100%;
-        max-width: 200px;
-
-
-    }
-}
-
-
-
-
-/* ipad device  */
-@media (max-width:700px) {
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .hero .ex-sp {
-
-
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 400px;
-        left: 60%;
-        width: 100%;
-        max-width: 200px;
-
-
-    }
-
-}
-
-@media (min-width: 576px) and (max-width: 705px) {
-
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .hero img {
-        position: absolute;
-        top: 430px;
-        background-color: var(--bg-light-pink) !important;
-    }
-
-    .hero .ex-sp {
-
-
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 390px;
-        left: 10%;
-        width: 100%;
-        max-width: 300px;
-
-
-    }
-
-    .hero .container .col-lg-6 {
-        background-color: var(--bg-light-pink) !important;
-    }
-
-}
-
-/* phone  */
-@media (max-width:576px) {
-    .hero {
-        background-color: var(--bg-light-pink) !important;
-    }
-
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .hero img {
-        position: absolute;
-        top: 430px;
-        background-color: var(--bg-light-pink) !important;
-    }
-
-    .hero .ex-sp {
-
-        font-size: 15px;
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 390px;
-        left: 0;
-        width: 100%;
-        max-width: 200px;
-
-
-    }
-
-    .hero .container .col-lg-6 {
-        background-color: var(--bg-light-pink) !important;
-    }
-
-}
-
-@media (max-width: 576px) {
-    
-
-    .col-lg-6,
-    .col-md-4,
-    .col-12 {
-        width: 100% !important;
-        max-width: 100% !important;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .info-section h1 {
-        font-size: 1.8rem;
-    }
-
-    .info-section p.subtext {
-        max-width: 100%;
-    }
-
-    .doctor-img {
-        margin-top: 30px;
-    }
-    .testimonial-wrapper {
-        text-align: center;
-    }
-
-    .testimonial-author {
-        text-align: center;
-    }
-}
-
-@media(max-width:763px) {
-    .service-section {
-        position: absolute;
-        top: 1000px;
-        width: 100%;
-        left: 0;
-
-    }
-
-    .helpline {
-        position: absolute;
-        top: 1400px;
-        width: 100%;
-        left: 0;
-    }
-
-    .helpline .row .image-card img {
-        max-width: 200px !important;
-    }
-
-    .helpline .container .row .col-md-6 h2 {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-
-    .facility {
-        position: absolute;
-        top: 2100px;
-    }
-
-    .facility h2 {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-    .working-hours-section {
-        position: absolute;
-        top: 4100px;
-    }
-
-    .working-hours-section .bg-brown h2 {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-    .twenty-section {
-        position: absolute;
-        top: 4900px;
-    }
-
-    .twenty-section .container .row .col-lg-6 h2 {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-    .appointment-section {
-        position: absolute;
-        top: 5700px;
-    }
-
-    .appointment-section .container .row .col-lg-6 h2 {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-    .appointment-section .container .row .col-lg-6 {
-        margin-bottom: 0px !important;
-    }
-
-
-    .doctor-section {
-        position: absolute;
-        top: 7300px;
-    }
-
-    .doctor-section .container h2 {
-        font-size: 30px;
-        line-height: 1;
-
-    }
-
-
-    .info-section {
-        position: absolute;
-        top: 9020px;
-    }
-
-    .info-section .container h2 {
-        font-size: 30px !important;
-        line-height: 1;
-    }
-
-    .testimonials {
-        position: absolute;
-        top: 9900px;
-    }
-    .testimonials h2{
-        font-size: 30px !important;
-        line-height: 1;
-    }
-    .testimonial-author::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 130px;
-    right: 0;
-    width: 40px;
-    height: 2px;
-    background-color: #c4b5fd;
-    
-}
-
-.faq-section{
-    position: absolute;
-    top: 10900px;
-}
-.faq-section .container .row .col-md-6 h2{
-    font-size: 30px;
-    line-height: 1;
-}
- 
-
-.article{
-    position: absolute;
-    top: 11800px;
-}
-.article .container .mb-4 h2{
-    font-size: 30px;
-    line-height: 1;
-}
-.article .container .mb-4 .brown-btn{
-    font-size: 10px;
-    max-width: 100%;
-
-}
-.footer{
-    position: absolute;
-    top: 13500px;
-}
-.footer .container .row .col-md-3{
+/* ===========================
+   HERO SECTION RESPONSIVE
+=========================== */
+@media (max-width: 1200px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+  .hero-img {
+    flex-direction: column;
     text-align: center;
+    gap: 20px;
+  }
+  .hero-img img {
+    max-width: 80%;
+  }
+  .hero .ex-sp {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
 }
-.footer .container .row .col-md-3 .gap-3   {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .hero .ex-sp {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+/* ===========================
+   SERVICES
+=========================== */
+@media (max-width: 992px) {
+  .service-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .service-box .icon-circle {
+    margin-bottom: 10px;
+  }
+}
+
+/* ===========================
+   HELPLINE
+=========================== */
+@media (max-width: 992px) {
+  .helpline .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .helpline img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .helpline h2 {
+    font-size: 28px;
+  }
+}
+
+/* ===========================
+   FACILITY
+=========================== */
+@media (max-width: 768px) {
+  .facility h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .facility .card {
+    text-align: center;
+  }
+}
+
+/* ===========================
+   WORKING HOURS
+=========================== */
+@media (max-width: 992px) {
+  .working-hours-section .bg-brown {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .working-hours-section h2 {
+    font-size: 28px;
+  }
+}
+
+/* ===========================
+   24/7 SECTION
+=========================== */
+@media (max-width: 768px) {
+  .twenty-section h2 {
+    font-size: 28px;
+  }
+  .twenty-section img {
+    margin-top: 20px;
+  }
+}
+
+/* ===========================
+   APPOINTMENT
+=========================== */
+@media (max-width: 992px) {
+  .appointment-section .row {
+    flex-direction: column;
+  }
+  .appointment-section img {
+    max-width: 90%;
+    margin: 0 auto 20px;
+  }
+  .appointment-section h2 {
+    font-size: 28px;
+  }
+}
+
+/* ===========================
+   DOCTORS
+=========================== */
+@media (max-width: 768px) {
+  .doctor-section h2 {
+    font-size: 28px;
+  }
+  .doctor-card {
+    text-align: center;
+  }
+}
+
+/* ===========================
+   INFO SECTION
+=========================== */
+@media (max-width: 768px) {
+  .info-section h2 {
+    font-size: 28px;
+  }
+  .info-section .doctor-img {
+    margin-top: 20px;
+    max-width: 80%;
+  }
+}
+
+/* ===========================
+   TESTIMONIALS
+=========================== */
+@media (max-width: 768px) {
+  .testimonial-wrapper {
+    text-align: center;
+    padding: 20px;
+  }
+  .testimonial-text {
+    font-size: 15px;
+  }
+  .testimonial-author {
+    margin-top: 15px;
+  }
+}
+
+/* ===========================
+   FAQ + FOOTER
+=========================== */
+@media (max-width: 768px) {
+  .faq-section h2,
+  .article h2,
+  .footer h2 {
+    font-size: 26px !important;
+  }
+
+  .footer .col-md-3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* ===========================
+   FOOTER RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  /* Hide Explore & Resources Columns */
+  .footer .col-md-3:nth-child(3),
+  .footer .col-md-3:nth-child(4) {
+    display: none;
+  }
+
+  /* Align other content to left */
+  .footer .container .row {
+    text-align: left !important;
+  }
+  
+
+  .footer .container .row .col-md-3 {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+}
+
+
+/* ===========================
+   UNIVERSAL IMAGE CENTER (Responsive)
+=========================== */
+@media (max-width: 992px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Make parent flex container center align images */
+  /* .row img,
+  .container img,
+  section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+
+  /* Hero, Helpline, Appointment, etc. specific adjustments */
+  .hero-img,
+  .helpline .col-md-6,
+  .appointment-section .col-lg-6,
+  .twenty-section .col-lg-6,
+  .info-section .col-md-6,
+  .doctor-section .doctor-card,
+  .testimonials .col-md-6 {
+    text-align: center !important;
+  }
 
 }
 
+/* ===========================
+   UNIVERSAL IMAGE RESPONSIVE
+=========================== */
+/* img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
+@media (max-width: 992px) {
+  section img,
+  .container img,
+  .row img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+/* ===========================
+   HIDE IMAGES IN FAQ & APPOINTMENT (Responsive)
+=========================== */
+@media (max-width: 768px) {
+  /* Appointment section image hide */
+  .appointment-section img {
+    display: none !important;
+  }
+
+  /* FAQ section image hide */
+  .faq-section img {
+    display: none !important;
+  }
+}
+
+
